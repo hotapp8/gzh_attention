@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "attention": "../components/attention/attention"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarTitleText": "芝麻小客服关注组件演示demo"
+  
+}

@@ -1,0 +1,62 @@
+/* pages/components/attention/attention.wxss */
+
+.conta{
+  height: auto
+}
+.guanzhu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 4px 0;
+  border-top:1px solid #DFDFDF;
+  border-bottom:1px solid #DFDFDF;
+  padding-bottom: 14px;
+}
+.guanzhu_title {
+  padding-left: 5px;
+  color: #CCCCCC;
+  font-size: 10px;
+  margin-bottom:7px;
+}
+.guanzhu_content {
+  display: flex;
+  align-items: center;
+}
+.gz_ct_left {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.gz_ct_middle {
+  flex: 3;
+}
+.gz_ct_right {
+  margin-right: 10px;
+}
+
+.gz_ct_right button {
+  background-color: #fff;
+  color: #1890ff;
+  border: 1rpx solid #1890ff;
+  line-height:1.9;
+  padding:0 0.8;
+
+}
+
+.gz_ct_left image {
+  width: 38px;
+  height:38px;
+  vertical-align: middle;
+}
+
+.gz_ct_midtop {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.gz_ct_midbot {
+  color: #808080;
+  font-size: 12px;
+}
+button::after{ border: none; } 

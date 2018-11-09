@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="container">
+<view style='margin:20rpx'>微信官方关注组件</view>
+<attention 
+  attention_type="weichat"
+  dialog_type="3"
+  scenes_value="{{scenes_value}}"
+>
+</attention>
+
+<view style='margin:40rpx'>保存公众号二维码图片关注</view>
+<attention 
+  attention_type="zhima"
+  dialog_type="1"
+  scenes_value="1011"
+  attention_btn="查看"
+  attention_img="../../../images/ewm.jpg"
+  attention_logo="../../../images/testewm.jpg"
+  attention_content="芝麻小事网络旗下产品1.芝麻小客服，小程序和公众..."
+  attention_name="芝麻服务助手"
+>
+</attention>
+
+
+<view style='margin:40rpx'>客服聊天关注</view>
+<attention 
+  attention_type="zhima"
+  dialog_type="2"
+  scenes_value="1011"
+  attention_btn="关注"
+  attention_logo="../../../images/ykf_log.png"
+  attention_content="芝麻小事网络旗下产品1.芝麻小客服，小程序和公众..."
+  attention_name="芝麻小客服"
+>
+</attention>
+
+<view style='margin:40rpx'>复制公众号名称关注</view>
+<attention 
+  attention_type="zhima"
+  dialog_type="3"
+  scenes_value="1011"
+  attention_btn="关注"
+  attention_logo="../../../images/ykf_log.png"
+  attention_content="芝麻小事网络旗下产品1.芝麻小客服，小程序和公众..."
+  attention_name="芝麻小客服"
+>
+</attention>
+</view>

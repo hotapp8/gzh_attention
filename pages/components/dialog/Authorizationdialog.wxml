@@ -1,0 +1,21 @@
+      <view class='author' hidden='{{is_author}}' bindtap='hide' id="author" >
+          <view class='sq_contain' id="sq_contain">
+            <view class='sq_contain_cricle'></view>
+            <image class='app_logo' src='{{app_logo}}'></image>
+            <view class='sq_contain_title1'>
+              {{app_name}}
+            </view>
+            <image wx:if="{{app_img!=''}}" class='gzh_img' src='{{app_img}}'></image>
+
+            <view class='sq_contain_content'>
+              <block wx:if="{{dialog_type=='2'}}">
+                <button open-type="contact" size="mini" type='default' bindtap='_confirm'  lang="zh_CN" >{{btn_name}}</button>
+              </block>
+              <block wx:else>
+                <button size="mini" type='default' bindtap='_confirm'  lang="zh_CN" >{{btn_name}}</button>
+              </block>
+              
+              
+            </view>
+          </view>
+      </view>

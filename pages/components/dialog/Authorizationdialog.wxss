@@ -1,0 +1,77 @@
+/* pages/components/dialog/Authorizationdialog.wxss */
+.author{
+  width:100%;
+  height:100%;
+  background-color:#7F7F7F;
+  position:fixed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  z-index:99;
+  top:0rpx;
+
+}
+.sq_contain{
+  width: 80%;
+  height: auto;
+  background-color: #fff;
+  z-index:100;
+  text-align:center;
+  position:relative;
+  border-radius: 10rpx
+}
+.sq_contain_cricle{
+  position:absolute;
+  border-radius:50%;
+  background-color:#fff;
+  width:188rpx;
+  height:180rpx;
+  left:50%;
+  top:-46rpx;
+  transform:translatex(-50%);
+  z-index:-1;
+
+}
+.app_logo{
+  width:127rpx;
+  height:99rpx;
+  position:relative;
+  top:-16rpx;
+}
+.sq_contain_title1{
+  font-size:38rpx;
+  color:#000;
+  font-weight:600;
+  margin-top:20rpx;
+
+
+}
+.sq_contain_title2{
+  font-size:29rpx;
+  color:#808080;
+  font-weight:400;
+  margin-top:20rpx;
+
+
+}
+.sq_contain_content button{
+  max-width:60%;
+  height:85rpx;
+  line-height:85rpx;
+  font-size:33rpx;
+  background-color:transparent;
+  border:2rpx solid #51AA37;
+  color:#51AA37;
+  font-weight: 500;
+}
+.sq_contain_content{
+  margin-top:52rpx;
+  margin-bottom:52rpx;
+
+}
+.gzh_img{
+  width:190rpx;
+  height:187rpx;
+  margin-top:31rpx;
+  margin-bottom:-12px;
+}

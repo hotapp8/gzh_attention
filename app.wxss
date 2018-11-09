@@ -1,0 +1,10 @@
+/**app.wxss**/
+page{
+  height: 100%;
+}
+.container {
+  height: 100%;
+  font-family:"PingFang SC";
+  background-color:#EFEFF4;
+  padding: 20rpx 0
+} 
