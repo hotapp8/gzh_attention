@@ -1,10 +1,9 @@
 # zhima_attention
 芝麻小客服公众号关注组件用法：
-<br />
+<br/>
 1.引入组件目录component内所有文件
-<br />
-<br />
-![image](https://github.com/hotapp8/gzh_attention/master/01.PNG)
+<br/>
+![image](http://github.com/hotapp8/gzh_attention/raw/master/01.png)
 <br/>
 2.在要使用改组件的页面文件的配置文件中引入
 ```
