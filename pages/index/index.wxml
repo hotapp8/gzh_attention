@@ -1,13 +1,15 @@
 <!--index.wxml-->
 <view class="container">
 <view style='margin:20rpx'>微信官方关注组件</view>
-<attention style="height:30rpx"
+<attention
+  gzclass="gzclassw"
   attention_type="weichat"
   scenes_value="{{scenes_value}}"
 >
 </attention>
 <view style='margin:40rpx'>保存公众号二维码图片关注</view>
 <attention 
+  gzclass="gzclassw"
   attention_type="zhima"
   dialog_type="1"
   scenes_value="1011"

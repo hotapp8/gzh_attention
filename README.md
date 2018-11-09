@@ -21,6 +21,7 @@
   attention_logo="../../../images/testewm.jpg" <!-- 要显示的公众号logo目录 -->
   attention_content="芝麻小事网络旗下产品1.芝麻小客服，小程序和公众..." <!--  要显示的公众号内容 -->
   attention_name="芝麻服务助手" <!--  要显示的公众号标题 -->
+  gzclass="gzclassw"    <!-- 关注组件自定义样式类控制最外层样式 -->
 >
 </attention>
 ```

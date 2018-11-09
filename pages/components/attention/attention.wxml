@@ -34,7 +34,7 @@
     </authorizationdialog>
   </block>
   <block wx:if="{{attention_type=='zhima'}}">
-    <view class='guanzhu'>
+    <view class='guanzhu gzclass'>
         <view class='guanzhu_title'>
             {{attention_name}}关联的公众号
         </view>
@@ -63,7 +63,7 @@
     </block>
     <block wx:else>
   
-        <view class='guanzhu'>
+        <view class='guanzhu gzclass'>
           <view class='guanzhu_title'>
               {{attention_name}}关联的公众号
           </view>

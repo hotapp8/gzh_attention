@@ -37,7 +37,7 @@ Component({
       value: ""
     }
   },
-
+  externalClasses: ["gzclass"],
   /**
    * 组件的初始数据
    */
