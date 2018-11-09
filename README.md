@@ -1,17 +1,16 @@
-# zhima_attention
-芝麻小客服公众号关注组件用法：
-<br/>
-1.引入组件目录component内所有文件
-<br/>
-![image](http://github.com/hotapp8/gzh_attention/raw/master/01.png)
-<br/>
-2.在要使用改组件的页面文件的配置文件中引入
+### 芝麻小客服公众号关注组件用法：
+
+### 1.引入组件目录component内所有文件
+
+![image](https://raw.githubusercontent.com/hotapp8/gzh_attention/master/01.png)
+
+### 2.在要使用改组件的页面文件的配置文件中引入
 ```
   "usingComponents": {
     "attention": "../components/attention/attention"
   },
 ```
-3.在想引入公众号关注组件的地方加入如下调用代码
+### 3.在想引入公众号关注组件的地方加入如下调用代码
 ```
 <attention 
   attention_type="zhima"   <!-- 这里如果调用芝麻小客服关注组件attention 填 zhima   如果调用微信官方组件 weichat  如为weichat后面除了scenes_value求参数其他所有参数可省略 -->
