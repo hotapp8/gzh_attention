@@ -58,7 +58,7 @@
   </block>
   <block wx:elif="{{attention_type=='weichat'}}">
     
-    <block wx:if="{{is_effictive!='-1'}}">
+    <block wx:if="{{is_effictive!='-1' && is_config=='1'}}">
       <official-account bindload="getgzsucesseresult"  binderror="getgzerroresult"></official-account>
     </block>
     <block wx:else>

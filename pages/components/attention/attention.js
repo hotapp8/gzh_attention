@@ -20,11 +20,11 @@ Component({
       type: String,
       value: ""
     },
-    attention_btn:{
+    attention_btn: {
       type: String,
-      value:"关注"
+      value: "关注"
     },
-    attention_type:{
+    attention_type: {
       type: String,
       value: "1"
     },
@@ -42,11 +42,12 @@ Component({
    * 组件的初始数据
    */
   data: {
-    scenes:["1011","1047","1089","1038"],
-    is_effictive:""
+    scenes: ["1011", "1047", "1089", "1038"],
+    is_effictive: "",
+    is_config: "1",
   },
-  ready:function(e){
-   
+  ready: function (e) {
+
     this.setData({
       is_effictive: this.data.scenes.indexOf(this.data.scenes_value)
     })
@@ -117,6 +118,9 @@ Component({
       console.log(e);
     },
     getgzerroresult: function (e) {
+      this.setData({
+        is_config: "0"
+      })
       console.log(e);
     }
   }

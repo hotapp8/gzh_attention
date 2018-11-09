@@ -1,12 +1,15 @@
 <!--index.wxml-->
 <view class="container">
 <view style='margin:20rpx'>微信官方关注组件</view>
-<attention
-  gzclass="gzclassw"
-  attention_type="weichat"
-  scenes_value="{{scenes_value}}"
->
-</attention>
+  <attention
+    attention_type="weichat"
+    scenes_value="{{scenes_value}}"
+    attention_btn="关注"
+    attention_content="微信支付宝qq收款码合并为一个..."
+    attention_name="芝麻收款"
+  >
+  </attention>
+
 <view style='margin:40rpx'>保存公众号二维码图片关注</view>
 <attention 
   gzclass="gzclassw"
