@@ -7,7 +7,6 @@
   scenes_value="{{scenes_value}}"
 >
 </attention>
-
 <view style='margin:40rpx'>保存公众号二维码图片关注</view>
 <attention 
   attention_type="zhima"
