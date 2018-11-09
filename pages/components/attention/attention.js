@@ -30,7 +30,7 @@ Component({
     },
     dialog_type: {
       type: String,
-      value: ""
+      value: "2"
     },
     scenes_value: {
       type: String,

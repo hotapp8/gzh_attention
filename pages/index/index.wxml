@@ -1,9 +1,8 @@
 <!--index.wxml-->
 <view class="container">
 <view style='margin:20rpx'>微信官方关注组件</view>
-<attention 
+<attention style="height:30rpx"
   attention_type="weichat"
-  dialog_type="3"
   scenes_value="{{scenes_value}}"
 >
 </attention>
